@@ -53,6 +53,9 @@ else
   fi
 fi
 
+/usr/local/bin/composer require razorpay/magento:dev-ut-test-3
+
+bin/magento module:enable Razorpay_Magento
 
 #bin/magento deploy:mode:set developer
 
