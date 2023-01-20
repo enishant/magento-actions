@@ -1,6 +1,6 @@
 FROM debian:buster
 
-LABEL org.opencontainers.image.source="https://github.com/enishant/magento-actions"
+LABEL org.opencontainers.image.source="https://github.com/MAD-I-T/magento-actions"
 
 
 
