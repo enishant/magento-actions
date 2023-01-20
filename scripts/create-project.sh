@@ -68,10 +68,15 @@ fi
 ls -lath
 
 mv ./project-community-edition ./magento
+echo "Magento Installation Files:"
 ls -lath ./magento
+echo "Magento Installation, Vendor Files:"
+ls -lath ./magento/vendor
 
 cd magento
 composer require razorpay/magento dev-ut-test-3
+echo "Post Razorpay Magento Installation, Vendor Files:"
+ls -lath ./vendor
 cd ..
 
 if [ "$INPUT_ENABLE" =  "pwa" ]
