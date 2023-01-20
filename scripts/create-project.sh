@@ -70,6 +70,9 @@ ls -lath
 mv ./project-community-edition ./magento
 ls -lath ./magento
 
+cd magento
+composer require razorpay/magento dev-ut-test-3
+cd ..
 
 if [ "$INPUT_ENABLE" =  "pwa" ]
 then
