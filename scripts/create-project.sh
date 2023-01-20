@@ -67,6 +67,7 @@ fi
 
 ls -lath
 
+echo "Install Razorpay Magento dev-ut-test-3"
 cd /github/workspace/project-community-edition
 composer require razorpay/magento dev-ut-test-3
 ls -lath /github/workspace/project-community-edition/vendor
