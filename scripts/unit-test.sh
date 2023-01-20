@@ -18,12 +18,12 @@ set -e
 if [ $COMPOSER_COMPATIBILITY = 0 ]
 then
 	/usr/local/bin/composer install --prefer-dist --no-progress
-	/usr/local/bin/composer require razorpay/magento:dev-ut-test-3
+	/usr/local/bin/composer require razorpay/magento:dev-ut-test-3 --prefer-dist --no-progress --ignore-platform-reqs
 else
   echo "using composer v1"
   php7.2 /usr/local/bin/composer self-update --1
 	/usr/local/bin/composer install --prefer-dist --no-progress
-	/usr/local/bin/composer require razorpay/magento:dev-ut-test-3
+	/usr/local/bin/composer require razorpay/magento dev-ut-test-3 --prefer-dist --no-progress --ignore-platform-reqs
 fi
 
 chmod +x bin/magento
