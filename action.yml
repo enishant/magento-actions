@@ -15,7 +15,7 @@ inputs:
     default: 3
   override_settings:
     description:  'override config and scripts dirs with your own setup/config, must respect default scalfolding 1 or 0'
-    default: 0
+    default: 1
   elasticsuite:
     description: 'your src is using elasticsuite?  1 or 0'
     default: 0
