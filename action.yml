@@ -2,7 +2,8 @@ name: 'Magento 2 actions'
 description: 'Test Build Deploy M2 projects'
 author: 'MAD IT (www.madit.fr)'
 inputs: 
-  branch: ${{ github.head_ref }}
+  branch:
+    description: 'current rzp branch'
   php:
     description: 'version of php to use 7.1, 7.2 or 7.4'
     default: 'auto'
