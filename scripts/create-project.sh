@@ -10,6 +10,9 @@ then
   echo "StrictHostKeyChecking no " > /root/.ssh/config
 fi
 
+echo "current branch name"
+git branch --show-current
+
 set -e
 
 PROJECT_PATH="$(pwd)"
