@@ -4,6 +4,7 @@ author: 'MAD IT (www.madit.fr)'
 inputs: 
   branch:
     description: 'current rzp branch'
+    default: 'xyz branch'
   php:
     description: 'version of php to use 7.1, 7.2 or 7.4'
     default: 'auto'
