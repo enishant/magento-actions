@@ -11,7 +11,7 @@ then
 fi
 
 echo "current branch test 1"
-echo $INPUT_BRANCH
+echo $INPUT_MAGENTO_VERSION
 
 set -e
 
