@@ -10,8 +10,11 @@ then
   echo "StrictHostKeyChecking no " > /root/.ssh/config
 fi
 
-echo "current branch name"
-git branch --show-current
+echo "current branch test 1"
+echo $RZP_BRANCH
+
+echo "current branch test 1"
+echo ${RZP_BRANCH}
 
 set -e
 
