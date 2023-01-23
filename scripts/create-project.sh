@@ -11,10 +11,7 @@ then
 fi
 
 echo "current branch test 1"
-echo $RZP_BRANCH
-
-echo "current branch test 1"
-echo ${RZP_BRANCH}
+echo $INPUT_BRANCH
 
 set -e
 
